@@ -1,0 +1,13 @@
+
+1.创建一个自己的仓库     repositories
+
+2.用ssh不用验证,密钥登陆 要先生成rsa密钥   ssh-keygen -t rsa 用户文件夹下.ssh 里面的pub文件就是密钥
+
+3.git config --global user.name layoung  git config --global user.email 184592775@qq.com 本地绑定信息  git config --global user.name查看   在用户文件夹中有个gitconfig可以查看设置的信息
+
+4.本地仓库克隆  git clone ssh地址
+
+5.git add index.html  将文件从工作区提交到缓存区(用作分类,对提交的文件添加索引类似的功能,保存每个版本的文件)
+  git add .将所有文件都一起提交到缓存区
+  
+6.git commit -m 'init html'提交代码到git仓库 -m后面是本次提交的说明
